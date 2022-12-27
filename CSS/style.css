@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.8;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-style: italic;
+}
+.navbar{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+.header{
+    position: fixed;
+    background-color: #FFF !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.nav-link{
+    color: #111 !important;
+    display: unset !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+
+.active-home {
+    color:#1107fe !important;
+}
+.nav-item a:hover{
+    color: #1107fe !important;
+    transition: .4s;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0, 224, 254, 0.7),rgba(17, 7, 254, 0.7)),url(../images/cover_1.jpg);
+    z-index: -1;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+img{
+    width: 100%;
+}
+
+.home h1{
+    font-weight: 500;
+}
+.home P{
+    margin-bottom: 3rem !important;
+}
+
+.btn-main{
+    padding: 16px 48px;
+    background: linear-gradient(to right, #00e0fe,#1107fe);
+    border-radius: 100px !important;
+    border: none !important;
+    text-decoration: none;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.btn-main:hover{
+    background: linear-gradient(to top,#1107fe, #00e0fe);
+}
+
+.section-intro{
+    margin-bottom: 40px;
+}
+
+.divider{
+    height:3px;
+    width: 90px;
+    background: linear-gradient(to right, #00e0fe,#1107fe);
+    margin:16px auto;
+}
+
+.services h5,p{
+    text-align:center;
+}
+.services img{
+    padding-bottom: 2rem;
+}
+.services h5{
+    font-weight:bold !important;
+    background: linear-gradient(to right, #00e0fe,#1107fe);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+
+.about{
+    background-image: linear-gradient(rgba(0, 224, 254, 0.7),rgba(17, 7, 254, 0.7)),url(../images/cover_3.jpg);
+    background-attachment: fixed;
+    min-height: 50vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.about h1{
+    font-weight: 600;
+}
+.about P{
+    margin-bottom: 3rem !important;
+}
+.video-btn{
+    color: #fff;
+    text-decoration: none !important;
+    background: linear-gradient(to top, #00e0fe,#1107fe);
+    width: 60px !important;
+    height: 60px !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.video-btn:hover{
+    color: #fff !important;
+    background: linear-gradient(to left,#1107fe, #00e0fe);
+}
+.video-btn i{
+    font-size: 2rem !important;
+}
+
+.features h1{
+    text-align: center !important;
+}
+.icon{
+    font-size: 3rem;
+    color:  #00e0fe !important;
+}
+.features h5{
+    text-align: center;
+    font-weight:bold !important;
+    background: linear-gradient(to right, #00e0fe,#1107fe);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.counters{
+    background-image: linear-gradient(rgba(0, 224, 254, 0.7),rgba(17, 7, 254, 0.7)),url(../images/cover_2.jpg);
+    background-attachment: fixed;
+    min-height: 25vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.counters h5{
+    text-align:center;
+}
+
+.la-camera-retro,
+.la-trophy,
+.la-smile,
+.la-paint-roller{
+    color: #fff;
+}
+
+
+.testimonials h1,
+.blog h1{
+    text-align: center !important;
+}
+
+
+.testimonials  img{
+    width: 50px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.text,
+.left{
+    text-align: start !important;
+}
+
+.reviews{
+    box-shadow: 0 12px 10px rgba(0,0,0,0.2);
+}
+.text-start{
+    margin-left: .2rem;
+}
+
+.la-star{
+    color: goldenrod !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+.contact{
+     background-image: linear-gradient(rgba(0, 224, 254, 0.7),rgba(17, 7, 254, 0.7)),url(../images/cover_3.jpg); 
+     min-height: 50vh;
+     background-position: center;
+     color: #FFF;
+     background-attachment: fixed;
+     z-index: -1;
+     background-repeat: no-repeat;
+}
+
+form .form-control{
+    border-radius: 0;
+    background-color: transparent;
+    border-color: #fff;
+}
+form .form-control::placeholder{
+    color: #fff;
+}
+
+form input.form-control{
+    height: 54px;
+}
+
+form .form-control:focus{
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+footer{
+    background: linear-gradient(to left, #00e0fe,#1107fe);
+    color: #fff;
+}
+footer i{
+    font-size: 1.5rem;
+}
+footer i:hover{
+    color:#111;
+    transition: .4s ease-in;
+}
